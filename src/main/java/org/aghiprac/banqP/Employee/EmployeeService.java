@@ -6,6 +6,6 @@ import org.aghiprac.banqP.entities.Employee;
 
 public interface EmployeeService {
 	public Employee saveEmployee(Employee employee);
-	public List<Employee> saveAllEmployee(List<Employee> employees);
+	public List<Employee> getAllEmployee();
 
 }

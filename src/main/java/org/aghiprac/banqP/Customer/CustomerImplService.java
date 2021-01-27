@@ -21,4 +21,10 @@ public class CustomerImplService implements CustomerService {
 		return customerRepository.findAll();
 	}
 
+	@Override
+	public Customer getCustomerById(Long IdCustomer) {
+		// TODO Auto-generated method stub
+		return customerRepository.findById(IdCustomer).get();
+	}
+
 }

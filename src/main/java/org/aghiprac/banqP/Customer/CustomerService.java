@@ -9,5 +9,6 @@ import org.springframework.stereotype.Service;
 public interface CustomerService{	
 	public Customer saveCustomer(Customer customer);
 	public List<Customer> getAllCustomer() ;
+	public Customer getCustomerById(Long IdCustomer);
 
 }
